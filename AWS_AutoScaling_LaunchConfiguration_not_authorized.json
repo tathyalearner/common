@@ -1,0 +1,24 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+		"Sid": "VisualEditor0",
+		"Effect": "Allow",
+		"Action": [
+			"iam:CreateInstanceProfile",
+			"iam:Passrole",
+			"iam:CreateServiceLinkedRole",
+			"iam:GetInstanceProfile",
+			"iam:ListInstanceProfile",
+			"iam:UpdateRole",
+			"iam:ListInstanceProfiles",
+			"iam:AddRoleToInstanceProfile",
+			"iam:TagInstanceProfile"
+		],
+		"Resource": [
+			"arn:aws:iam:xyz:role/add_your_restriction",
+			"arn:aws:iam:xyz:instance-profile/add_your_restriction"
+			]
+		}
+	]
+}
